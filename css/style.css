@@ -1,6 +1,7 @@
 body {
-  background-color: #ff0000;
-  color: #0000FF;
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
 }
 
 nav {
@@ -8,6 +9,22 @@ nav {
   float: left;
   position: fixed;
   width: 100%;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin-bottom: 1.5em;
 }
 
 .logo {
@@ -44,6 +61,7 @@ li {
 
 article {
   padding-top: 100px;
+  line-height: 1.2;
 }
 
 .container {
